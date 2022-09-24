@@ -4,6 +4,7 @@ import { Box } from '@chakra-ui/react';
 import NavBar from './NavBar';
 import Landing from './Landing';
 import './App.css';
+import Portfolio from './Portfolio';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Box>
       <NavBar />
       <Landing />
+      <Portfolio />
     </Box>
   );
 }

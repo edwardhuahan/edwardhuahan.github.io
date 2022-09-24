@@ -1,12 +1,9 @@
 import {
-  Button,
   Flex,
   Heading,
-  Image,
   Link,
   Stack,
   Text,
-  useBreakpointValue,
   useColorModeValue,
 } from "@chakra-ui/react";
 
