@@ -1,7 +1,7 @@
 {
   "name": "main",
   "version": "0.1.0",
-  "homepage": "https://edwardhuahan.github.io",
+  "homepage": "https://edwardhan.ca",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.10",
