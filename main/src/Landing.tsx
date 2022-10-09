@@ -1,4 +1,5 @@
 import {
+  Box,
   Flex,
   Heading,
   Link,
@@ -6,6 +7,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import './Landing.css';
 
 export default function Landing() {
   const linkColor = useColorModeValue("gray.600", "gray.200");
@@ -16,7 +18,7 @@ export default function Landing() {
         <Stack spacing={6} w={"full"} maxW={"lg"}>
           <Heading fontSize={{ base: "3xl", md: "4xl" }}>
             <Text as={"span"} position={"relative"}>
-              Hi, I'm Edward 🇨🇦
+              Hi, I'm Edward <img id={"smile"} width={34} src="assets/smile.svg"></img>
             </Text>
             <br />{" "}
           </Heading>
@@ -25,7 +27,7 @@ export default function Landing() {
 
             fontSize={{ base: "md", lg: "lg" }}
           >
-            I'm a computer science student at the University of Toronto, I have great interest in full stack development, artificial intelligence, game development, and all things computers :)
+            I'm a computer science student at the University of Toronto and a Project Manager (former dev) at UofT Blueprint. We're a team of students that help non-profits by developing free and open source solutions. 
           </Text>
           <Link
             href={"mailto:edwardhuahan@gmail.com"}
